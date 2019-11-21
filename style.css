@@ -1,0 +1,264 @@
+*{
+    padding:0;
+    margin:0;
+}
+.main
+{
+background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("background-01.jpg");
+height:100vh;
+width:100%;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.navbar
+{
+    height:80px;
+    width:100%;
+    border:1px solid black;
+    
+    /* background-color:white; */
+    background:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255,255,255,0.5));
+    display:flex;
+    align-items:center;
+    text-transform: uppercase;
+    justify-content: space-around;
+
+}
+
+.logo
+{
+    width:20%;
+    color:white;
+    font-size:30px;
+}
+.list{
+    width: 60%;
+}
+.list ul{
+    
+    list-style:none;
+    color:white;
+    width:100%;
+    /* border:1px solid white; */
+    display:flex;
+    text-transform: uppercase;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.list ul :nth-child(1){
+    color:orange;
+}
+.text{
+    height:70vh;
+    width:100%;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 5em;
+    text-transform:uppercase;
+}
+.text h1{
+    font-size:50px;
+    
+}
+.btn
+{
+    height:6vh;
+    width:90px;
+    background:orange;
+    border-radius:15%;
+    text-transform: uppercase;
+    color: white;
+}
+.container1{
+    height:90vh;
+    width:90%;
+    background:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 80px;
+}
+.a{
+    height:40vh;
+    width:22%;
+    line-height:1.5em;
+}
+.a h1{
+    font-size: 18px;
+}
+.a h3{
+    color:orange;
+    font-size:12px;
+}
+.container2{
+    height:80vh;
+    width:100%;
+    background: rgb(229, 241, 243);
+    display:flex;
+}
+.one{
+    height:80vh;
+    width:50%;
+    display:flex;
+    justify-content:flex-end;
+}
+.two{
+    height:80vh;
+    width:50%;
+    background:rgb(231, 246, 248);
+    display:flex;
+    justify-content:center;
+}
+.b{
+    height:13vh;
+    width:65%;
+    background:white;
+    border-radius:10%;
+    display:flex;
+    align-items: center;
+}
+.one1{
+    height:80vh;
+    width:80%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.one1 h1{
+    text-transform:uppercase;
+}
+.two2{
+    height:80vh;
+    width:80%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+.c{
+    height:20vh;
+    width:70%;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    background-image: url(icon.svg);
+    background-repeat: no-repeat;
+}
+.d{
+    height:13vh;
+    width:45%;
+    border-radius:5%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.container3{
+    height:100vh;
+    width:100%;
+    background:white;
+
+}
+.text1
+{
+    height:25vh;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    line-height: 3rem;
+}
+.threepic{
+    height:80vh;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.x{
+    height:60vh;
+    width:25%;
+    line-height: 3rem;
+}
+.y{
+    height:60vh;
+    width:25%;
+    line-height: 1.5rem;
+}
+.z
+{
+    height:60vh;
+    width:25%;
+    line-height:1.5rem;
+}
+.y h2{
+    color: orange;
+
+}
+.z h2{
+    color: orange;
+}
+.btn1{
+    height:7vh;
+    width:40%;
+    background:orange;
+    border-radius:10%;
+
+}
+.last{
+    height:70vh;
+    width:100%;
+    background:black;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top:3px solid orange ;
+    margin-top:80px;
+}
+.last1{
+    height:60vh;
+    width:30%;
+    color:grey;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.last1 h1{
+    font-size:20px;
+    text-transform: uppercase;
+}
+.space{
+    height:0.2vh;
+    width:60%;
+    background:grey;
+}
+.end h1{
+    color:orange;
+
+}
+.end{
+    height:60vh;
+    width:80%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    line-height:12px;
+}
+.e{
+    height:80vh;
+    width:80%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+.last2{
+    height:40vh;
+    width:100%;
+    background:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
